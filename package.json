@@ -1,0 +1,17 @@
+{
+	"name": "decaptcher",
+	"description": "Wrapper and command line tool of decaptcha libraries",
+	"version": "0.0.1",
+	"author": {
+		"name": "Общество",
+		"email": "info@obshtestvo.bg"
+	},
+	"main": "./index.js",
+	"dependencies": {
+		"deathbycaptcha": "*",
+        "logger-generator": "git+https://github.com/obshtestvo-utilities/node-logger-generator.git"
+	},
+	"keywords": [
+		"wrapper"
+	]
+}
